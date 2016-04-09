@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED8CBCEC1CB918AB00C5FCE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8CBCEB1CB918AB00C5FCE8 /* AppDelegate.swift */; };
+		ED8CBCEE1CB918AB00C5FCE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8CBCED1CB918AB00C5FCE8 /* ViewController.swift */; };
+		ED8CBCF11CB918AB00C5FCE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8CBCEF1CB918AB00C5FCE8 /* Main.storyboard */; };
+		ED8CBCF31CB918AB00C5FCE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8CBCF21CB918AB00C5FCE8 /* Assets.xcassets */; };
+		ED8CBCF61CB918AB00C5FCE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8CBCF41CB918AB00C5FCE8 /* LaunchScreen.storyboard */; };
+		ED8CBD011CB918AB00C5FCE8 /* PrayAndGrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8CBD001CB918AB00C5FCE8 /* PrayAndGrowTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED8CBCFD1CB918AB00C5FCE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8CBCE01CB918AB00C5FCE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8CBCE71CB918AB00C5FCE8;
+			remoteInfo = PrayAndGrow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED8CBCE81CB918AB00C5FCE8 /* PrayAndGrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayAndGrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8CBCEB1CB918AB00C5FCE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED8CBCED1CB918AB00C5FCE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED8CBCF01CB918AB00C5FCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED8CBCF21CB918AB00C5FCE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED8CBCF51CB918AB00C5FCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED8CBCF71CB918AB00C5FCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8CBCFC1CB918AB00C5FCE8 /* PrayAndGrowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrayAndGrowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8CBD001CB918AB00C5FCE8 /* PrayAndGrowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayAndGrowTests.swift; sourceTree = "<group>"; };
+		ED8CBD021CB918AB00C5FCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED8CBCE51CB918AB00C5FCE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8CBCF91CB918AB00C5FCE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED8CBCDF1CB918AB00C5FCE8 = {
+			isa = PBXGroup;
+			children = (
+				ED8CBCEA1CB918AB00C5FCE8 /* PrayAndGrow */,
+				ED8CBCFF1CB918AB00C5FCE8 /* PrayAndGrowTests */,
+				ED8CBCE91CB918AB00C5FCE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8CBCE91CB918AB00C5FCE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8CBCE81CB918AB00C5FCE8 /* PrayAndGrow.app */,
+				ED8CBCFC1CB918AB00C5FCE8 /* PrayAndGrowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8CBCEA1CB918AB00C5FCE8 /* PrayAndGrow */ = {
+			isa = PBXGroup;
+			children = (
+				ED8CBCEB1CB918AB00C5FCE8 /* AppDelegate.swift */,
+				ED8CBCED1CB918AB00C5FCE8 /* ViewController.swift */,
+				ED8CBCEF1CB918AB00C5FCE8 /* Main.storyboard */,
+				ED8CBCF21CB918AB00C5FCE8 /* Assets.xcassets */,
+				ED8CBCF41CB918AB00C5FCE8 /* LaunchScreen.storyboard */,
+				ED8CBCF71CB918AB00C5FCE8 /* Info.plist */,
+			);
+			path = PrayAndGrow;
+			sourceTree = "<group>";
+		};
+		ED8CBCFF1CB918AB00C5FCE8 /* PrayAndGrowTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8CBD001CB918AB00C5FCE8 /* PrayAndGrowTests.swift */,
+				ED8CBD021CB918AB00C5FCE8 /* Info.plist */,
+			);
+			path = PrayAndGrowTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED8CBCE71CB918AB00C5FCE8 /* PrayAndGrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8CBD051CB918AB00C5FCE8 /* Build configuration list for PBXNativeTarget "PrayAndGrow" */;
+			buildPhases = (
+				ED8CBCE41CB918AB00C5FCE8 /* Sources */,
+				ED8CBCE51CB918AB00C5FCE8 /* Frameworks */,
+				ED8CBCE61CB918AB00C5FCE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrayAndGrow;
+			productName = PrayAndGrow;
+			productReference = ED8CBCE81CB918AB00C5FCE8 /* PrayAndGrow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED8CBCFB1CB918AB00C5FCE8 /* PrayAndGrowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8CBD081CB918AB00C5FCE8 /* Build configuration list for PBXNativeTarget "PrayAndGrowTests" */;
+			buildPhases = (
+				ED8CBCF81CB918AB00C5FCE8 /* Sources */,
+				ED8CBCF91CB918AB00C5FCE8 /* Frameworks */,
+				ED8CBCFA1CB918AB00C5FCE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8CBCFE1CB918AB00C5FCE8 /* PBXTargetDependency */,
+			);
+			name = PrayAndGrowTests;
+			productName = PrayAndGrowTests;
+			productReference = ED8CBCFC1CB918AB00C5FCE8 /* PrayAndGrowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED8CBCE01CB918AB00C5FCE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Hackatheon;
+				TargetAttributes = {
+					ED8CBCE71CB918AB00C5FCE8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					ED8CBCFB1CB918AB00C5FCE8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ED8CBCE71CB918AB00C5FCE8;
+					};
+				};
+			};
+			buildConfigurationList = ED8CBCE31CB918AB00C5FCE8 /* Build configuration list for PBXProject "PrayAndGrow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED8CBCDF1CB918AB00C5FCE8;
+			productRefGroup = ED8CBCE91CB918AB00C5FCE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED8CBCE71CB918AB00C5FCE8 /* PrayAndGrow */,
+				ED8CBCFB1CB918AB00C5FCE8 /* PrayAndGrowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8CBCE61CB918AB00C5FCE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8CBCF61CB918AB00C5FCE8 /* LaunchScreen.storyboard in Resources */,
+				ED8CBCF31CB918AB00C5FCE8 /* Assets.xcassets in Resources */,
+				ED8CBCF11CB918AB00C5FCE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8CBCFA1CB918AB00C5FCE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED8CBCE41CB918AB00C5FCE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8CBCEE1CB918AB00C5FCE8 /* ViewController.swift in Sources */,
+				ED8CBCEC1CB918AB00C5FCE8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8CBCF81CB918AB00C5FCE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8CBD011CB918AB00C5FCE8 /* PrayAndGrowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED8CBCFE1CB918AB00C5FCE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8CBCE71CB918AB00C5FCE8 /* PrayAndGrow */;
+			targetProxy = ED8CBCFD1CB918AB00C5FCE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED8CBCEF1CB918AB00C5FCE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8CBCF01CB918AB00C5FCE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED8CBCF41CB918AB00C5FCE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8CBCF51CB918AB00C5FCE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED8CBD031CB918AB00C5FCE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED8CBD041CB918AB00C5FCE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED8CBD061CB918AB00C5FCE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrayAndGrow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.badeleux.PrayAndGrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED8CBD071CB918AB00C5FCE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrayAndGrow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.badeleux.PrayAndGrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED8CBD091CB918AB00C5FCE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrayAndGrowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.badeleux.PrayAndGrowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrayAndGrow.app/PrayAndGrow";
+			};
+			name = Debug;
+		};
+		ED8CBD0A1CB918AB00C5FCE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrayAndGrowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.badeleux.PrayAndGrowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrayAndGrow.app/PrayAndGrow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED8CBCE31CB918AB00C5FCE8 /* Build configuration list for PBXProject "PrayAndGrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8CBD031CB918AB00C5FCE8 /* Debug */,
+				ED8CBD041CB918AB00C5FCE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8CBD051CB918AB00C5FCE8 /* Build configuration list for PBXNativeTarget "PrayAndGrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8CBD061CB918AB00C5FCE8 /* Debug */,
+				ED8CBD071CB918AB00C5FCE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED8CBD081CB918AB00C5FCE8 /* Build configuration list for PBXNativeTarget "PrayAndGrowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8CBD091CB918AB00C5FCE8 /* Debug */,
+				ED8CBD0A1CB918AB00C5FCE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED8CBCE01CB918AB00C5FCE8 /* Project object */;
+}
