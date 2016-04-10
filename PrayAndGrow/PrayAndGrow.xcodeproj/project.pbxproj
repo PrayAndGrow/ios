@@ -13,6 +13,28 @@
 		ED65B0C61CB9202B00E3760C /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED65B0C01CB9202B00E3760C /* ObjectMapper.framework */; };
 		ED65B0C71CB9202B00E3760C /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED65B0C11CB9202B00E3760C /* ReactiveCocoa.framework */; };
 		ED65B0C81CB9202B00E3760C /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED65B0C21CB9202B00E3760C /* Result.framework */; };
+		ED8431381CB967DF00B77698 /* SurpriseMeContentTypePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8431341CB967DF00B77698 /* SurpriseMeContentTypePickerViewController.swift */; };
+		ED8431391CB967DF00B77698 /* SurpriseMeDurationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8431351CB967DF00B77698 /* SurpriseMeDurationPickerViewController.swift */; };
+		ED84313A1CB967DF00B77698 /* SurpriseMeTagPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8431361CB967DF00B77698 /* SurpriseMeTagPickerViewController.swift */; };
+		ED84313C1CB9681900B77698 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED84313B1CB9681900B77698 /* Tag.swift */; };
+		ED84313E1CB9686400B77698 /* BrainBit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED84313D1CB9686400B77698 /* BrainBit.swift */; };
+		ED8431401CB968E400B77698 /* PrayAndGrowAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED84313F1CB968E400B77698 /* PrayAndGrowAPI.swift */; };
+		ED8431421CB9A73100B77698 /* SurpriseMeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8431411CB9A73100B77698 /* SurpriseMeInput.swift */; };
+		ED8431441CB9A7EA00B77698 /* SurpriseMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8431431CB9A7EA00B77698 /* SurpriseMeViewController.swift */; };
+		ED8431461CB9A93500B77698 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8431451CB9A93500B77698 /* ContentType.swift */; };
+		ED8431481CB9AA5A00B77698 /* AIFlatSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8431471CB9AA5A00B77698 /* AIFlatSwitch.swift */; };
+		ED84314A1CB9ABDC00B77698 /* SurpriseMeResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8431491CB9ABDC00B77698 /* SurpriseMeResultViewController.swift */; };
+		ED84314E1CB9B2F800B77698 /* JZStackedView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED84314D1CB9B2F800B77698 /* JZStackedView.m */; };
+		ED8431521CB9B4C500B77698 /* SurpriseMeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8431511CB9B4C500B77698 /* SurpriseMeCollectionViewCell.swift */; };
+		ED8431541CB9B4D900B77698 /* SurpriseMeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8431531CB9B4D900B77698 /* SurpriseMeCollectionViewCell.xib */; };
+		ED8431561CB9B55E00B77698 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8431551CB9B55E00B77698 /* UIView+Nib.swift */; };
+		ED84315C1CB9BA6B00B77698 /* TisprCardStackViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8431591CB9BA6B00B77698 /* TisprCardStackViewCell.swift */; };
+		ED84315D1CB9BA6B00B77698 /* TisprCardStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED84315A1CB9BA6B00B77698 /* TisprCardStackViewController.swift */; };
+		ED84315E1CB9BA6B00B77698 /* TisprCardStackViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED84315B1CB9BA6B00B77698 /* TisprCardStackViewLayout.swift */; };
+		ED8431601CB9BB3100B77698 /* SupriseMeResultCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED84315F1CB9BB3100B77698 /* SupriseMeResultCollectionViewController.swift */; };
+		ED8431671CB9D81600B77698 /* BEMAnalogClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8431641CB9D81600B77698 /* BEMAnalogClockView.m */; };
+		ED8431681CB9D81600B77698 /* KSMHand.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8431661CB9D81600B77698 /* KSMHand.m */; };
+		ED8431701CBA298E00B77698 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED84316F1CBA298E00B77698 /* UIColorExtension.swift */; };
 		ED8CBCEC1CB918AB00C5FCE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8CBCEB1CB918AB00C5FCE8 /* AppDelegate.swift */; };
 		ED8CBCEE1CB918AB00C5FCE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8CBCED1CB918AB00C5FCE8 /* ViewController.swift */; };
 		ED8CBCF11CB918AB00C5FCE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8CBCEF1CB918AB00C5FCE8 /* Main.storyboard */; };
@@ -38,6 +60,32 @@
 		ED65B0C01CB9202B00E3760C /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
 		ED65B0C11CB9202B00E3760C /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 		ED65B0C21CB9202B00E3760C /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		ED8431341CB967DF00B77698 /* SurpriseMeContentTypePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurpriseMeContentTypePickerViewController.swift; sourceTree = "<group>"; };
+		ED8431351CB967DF00B77698 /* SurpriseMeDurationPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurpriseMeDurationPickerViewController.swift; sourceTree = "<group>"; };
+		ED8431361CB967DF00B77698 /* SurpriseMeTagPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurpriseMeTagPickerViewController.swift; sourceTree = "<group>"; };
+		ED84313B1CB9681900B77698 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		ED84313D1CB9686400B77698 /* BrainBit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrainBit.swift; sourceTree = "<group>"; };
+		ED84313F1CB968E400B77698 /* PrayAndGrowAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayAndGrowAPI.swift; sourceTree = "<group>"; };
+		ED8431411CB9A73100B77698 /* SurpriseMeInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurpriseMeInput.swift; sourceTree = "<group>"; };
+		ED8431431CB9A7EA00B77698 /* SurpriseMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurpriseMeViewController.swift; sourceTree = "<group>"; };
+		ED8431451CB9A93500B77698 /* ContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
+		ED8431471CB9AA5A00B77698 /* AIFlatSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIFlatSwitch.swift; sourceTree = "<group>"; };
+		ED8431491CB9ABDC00B77698 /* SurpriseMeResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurpriseMeResultViewController.swift; sourceTree = "<group>"; };
+		ED84314C1CB9B2F800B77698 /* JZStackedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZStackedView.h; sourceTree = "<group>"; };
+		ED84314D1CB9B2F800B77698 /* JZStackedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZStackedView.m; sourceTree = "<group>"; };
+		ED84314F1CB9B35500B77698 /* PrayAndGrow-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrayAndGrow-BridgingHeader.h"; sourceTree = "<group>"; };
+		ED8431511CB9B4C500B77698 /* SurpriseMeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurpriseMeCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED8431531CB9B4D900B77698 /* SurpriseMeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SurpriseMeCollectionViewCell.xib; sourceTree = "<group>"; };
+		ED8431551CB9B55E00B77698 /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		ED8431591CB9BA6B00B77698 /* TisprCardStackViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TisprCardStackViewCell.swift; sourceTree = "<group>"; };
+		ED84315A1CB9BA6B00B77698 /* TisprCardStackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TisprCardStackViewController.swift; sourceTree = "<group>"; };
+		ED84315B1CB9BA6B00B77698 /* TisprCardStackViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TisprCardStackViewLayout.swift; sourceTree = "<group>"; };
+		ED84315F1CB9BB3100B77698 /* SupriseMeResultCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupriseMeResultCollectionViewController.swift; sourceTree = "<group>"; };
+		ED8431631CB9D81600B77698 /* BEMAnalogClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnalogClockView.h; sourceTree = "<group>"; };
+		ED8431641CB9D81600B77698 /* BEMAnalogClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnalogClockView.m; sourceTree = "<group>"; };
+		ED8431651CB9D81600B77698 /* KSMHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMHand.h; sourceTree = "<group>"; };
+		ED8431661CB9D81600B77698 /* KSMHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMHand.m; sourceTree = "<group>"; };
+		ED84316F1CBA298E00B77698 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		ED8CBCE81CB918AB00C5FCE8 /* PrayAndGrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayAndGrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8CBCEB1CB918AB00C5FCE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED8CBCED1CB918AB00C5FCE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +122,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED84312C1CB9502700B77698 /* SurpriseMe */ = {
+			isa = PBXGroup;
+			children = (
+				ED8431501CB9B4B800B77698 /* View */,
+				ED8431331CB967DF00B77698 /* ViewController */,
+				ED8431371CB967DF00B77698 /* Model */,
+			);
+			path = SurpriseMe;
+			sourceTree = "<group>";
+		};
+		ED8431331CB967DF00B77698 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ED8431341CB967DF00B77698 /* SurpriseMeContentTypePickerViewController.swift */,
+				ED8431351CB967DF00B77698 /* SurpriseMeDurationPickerViewController.swift */,
+				ED8431361CB967DF00B77698 /* SurpriseMeTagPickerViewController.swift */,
+				ED8431431CB9A7EA00B77698 /* SurpriseMeViewController.swift */,
+				ED8431491CB9ABDC00B77698 /* SurpriseMeResultViewController.swift */,
+				ED84315F1CB9BB3100B77698 /* SupriseMeResultCollectionViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ED8431371CB967DF00B77698 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED84313D1CB9686400B77698 /* BrainBit.swift */,
+				ED84313B1CB9681900B77698 /* Tag.swift */,
+				ED8431411CB9A73100B77698 /* SurpriseMeInput.swift */,
+				ED8431451CB9A93500B77698 /* ContentType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED84314B1CB9B2F800B77698 /* JZStackedView */ = {
+			isa = PBXGroup;
+			children = (
+				ED84314C1CB9B2F800B77698 /* JZStackedView.h */,
+				ED84314D1CB9B2F800B77698 /* JZStackedView.m */,
+			);
+			path = JZStackedView;
+			sourceTree = "<group>";
+		};
+		ED8431501CB9B4B800B77698 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED8431511CB9B4C500B77698 /* SurpriseMeCollectionViewCell.swift */,
+				ED8431531CB9B4D900B77698 /* SurpriseMeCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED8431571CB9BA6B00B77698 /* TisprCardStack */ = {
+			isa = PBXGroup;
+			children = (
+				ED8431591CB9BA6B00B77698 /* TisprCardStackViewCell.swift */,
+				ED84315A1CB9BA6B00B77698 /* TisprCardStackViewController.swift */,
+				ED84315B1CB9BA6B00B77698 /* TisprCardStackViewLayout.swift */,
+			);
+			path = TisprCardStack;
+			sourceTree = "<group>";
+		};
+		ED8431621CB9D81600B77698 /* BEMAnalogClock */ = {
+			isa = PBXGroup;
+			children = (
+				ED8431631CB9D81600B77698 /* BEMAnalogClockView.h */,
+				ED8431641CB9D81600B77698 /* BEMAnalogClockView.m */,
+				ED8431651CB9D81600B77698 /* KSMHand.h */,
+				ED8431661CB9D81600B77698 /* KSMHand.m */,
+			);
+			path = BEMAnalogClock;
+			sourceTree = "<group>";
+		};
 		ED8CBCDF1CB918AB00C5FCE8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +222,21 @@
 		ED8CBCEA1CB918AB00C5FCE8 /* PrayAndGrow */ = {
 			isa = PBXGroup;
 			children = (
+				ED8431621CB9D81600B77698 /* BEMAnalogClock */,
+				ED8431571CB9BA6B00B77698 /* TisprCardStack */,
+				ED84314B1CB9B2F800B77698 /* JZStackedView */,
+				ED84312C1CB9502700B77698 /* SurpriseMe */,
 				ED8CBCEB1CB918AB00C5FCE8 /* AppDelegate.swift */,
 				ED8CBCED1CB918AB00C5FCE8 /* ViewController.swift */,
 				ED8CBCEF1CB918AB00C5FCE8 /* Main.storyboard */,
 				ED8CBCF21CB918AB00C5FCE8 /* Assets.xcassets */,
 				ED8CBCF41CB918AB00C5FCE8 /* LaunchScreen.storyboard */,
 				ED8CBCF71CB918AB00C5FCE8 /* Info.plist */,
+				ED84313F1CB968E400B77698 /* PrayAndGrowAPI.swift */,
+				ED8431471CB9AA5A00B77698 /* AIFlatSwitch.swift */,
+				ED84314F1CB9B35500B77698 /* PrayAndGrow-BridgingHeader.h */,
+				ED8431551CB9B55E00B77698 /* UIView+Nib.swift */,
+				ED84316F1CBA298E00B77698 /* UIColorExtension.swift */,
 			);
 			path = PrayAndGrow;
 			sourceTree = "<group>";
@@ -205,6 +335,7 @@
 				ED8CBCF61CB918AB00C5FCE8 /* LaunchScreen.storyboard in Resources */,
 				ED8CBCF31CB918AB00C5FCE8 /* Assets.xcassets in Resources */,
 				ED8CBCF11CB918AB00C5FCE8 /* Main.storyboard in Resources */,
+				ED8431541CB9B4D900B77698 /* SurpriseMeCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,8 +376,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED8431481CB9AA5A00B77698 /* AIFlatSwitch.swift in Sources */,
+				ED84313C1CB9681900B77698 /* Tag.swift in Sources */,
+				ED8431441CB9A7EA00B77698 /* SurpriseMeViewController.swift in Sources */,
+				ED8431461CB9A93500B77698 /* ContentType.swift in Sources */,
+				ED8431701CBA298E00B77698 /* UIColorExtension.swift in Sources */,
+				ED84314A1CB9ABDC00B77698 /* SurpriseMeResultViewController.swift in Sources */,
+				ED8431391CB967DF00B77698 /* SurpriseMeDurationPickerViewController.swift in Sources */,
+				ED8431421CB9A73100B77698 /* SurpriseMeInput.swift in Sources */,
+				ED84313A1CB967DF00B77698 /* SurpriseMeTagPickerViewController.swift in Sources */,
+				ED8431681CB9D81600B77698 /* KSMHand.m in Sources */,
+				ED8431561CB9B55E00B77698 /* UIView+Nib.swift in Sources */,
+				ED84314E1CB9B2F800B77698 /* JZStackedView.m in Sources */,
+				ED8431521CB9B4C500B77698 /* SurpriseMeCollectionViewCell.swift in Sources */,
+				ED84315C1CB9BA6B00B77698 /* TisprCardStackViewCell.swift in Sources */,
+				ED8431381CB967DF00B77698 /* SurpriseMeContentTypePickerViewController.swift in Sources */,
 				ED8CBCEE1CB918AB00C5FCE8 /* ViewController.swift in Sources */,
+				ED8431671CB9D81600B77698 /* BEMAnalogClockView.m in Sources */,
+				ED84313E1CB9686400B77698 /* BrainBit.swift in Sources */,
+				ED8431601CB9BB3100B77698 /* SupriseMeResultCollectionViewController.swift in Sources */,
 				ED8CBCEC1CB918AB00C5FCE8 /* AppDelegate.swift in Sources */,
+				ED84315D1CB9BA6B00B77698 /* TisprCardStackViewController.swift in Sources */,
+				ED84315E1CB9BA6B00B77698 /* TisprCardStackViewLayout.swift in Sources */,
+				ED8431401CB968E400B77698 /* PrayAndGrowAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,14 +529,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PrayAndGrow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.badeleux.PrayAndGrow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PrayAndGrow/PrayAndGrow-BridgingHeader.h";
 			};
 			name = Debug;
 		};
@@ -392,14 +547,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PrayAndGrow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.badeleux.PrayAndGrow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PrayAndGrow/PrayAndGrow-BridgingHeader.h";
 			};
 			name = Release;
 		};
